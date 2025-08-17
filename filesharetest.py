@@ -8,7 +8,7 @@ import math
 import uuid
 
 # Initialize Firebase
-cred = credentials.Certificate("serviceAccountKey.json")  # Replace with your Firebase key
+cred = credentials.Certificate("nothing-d3af4-firebase-adminsdk-fbsvc-04c90e098a.json")  # Replace with your Firebase key
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
